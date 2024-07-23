@@ -1,0 +1,57 @@
+
+*
+   * @project_name : Mirza
+   * @author : Mirza <https://github.com/theycallmeprofessormirza>
+   * @youtube : https://www.youtube.com/c/deadlock
+   * @infoription : Mirza ,A Multi-functional whatsapp user bot.
+   * @version 1.2.2 
+*
+   * Licensed under the  GPL-3.0 License;
+* 
+   * ┌┤Created By MirZa-ON-fire
+   * © 2023 MirZa ✭ ⛥.
+   * plugin date : 10/6/2023
+* 
+
+**/
+
+
+
+const { smd, Config,smdBuffer,  prefix } = require('../lib')
+
+
+var surl = 'https://github.com/SuhailTechInfo/Suhail-Md' // Source URL
+const number = '923184474176'
+var name = ' Mirza'
+var body = '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯'
+let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
+│       「 𝗠𝗬 𝗜𝗡𝗧𝗥𝗢 」
+│ Name      : sυнαɪʟ ᴛᴇᴄʜ ɪиғօ
+│ Place       : ʟαнᴏʀᴇ ᴘᴋ
+│ Gender    :  ᴍᴀʟᴇ
+│ Age          : 22_
+│ Phone     : wa.me/923184474176
+│ Youtube   : BH4G BSDK
+│ Status     : ɢᴀᴍᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
+╰═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄`
+
+
+
+ //---------------------------------------------------------------------------
+ smd({
+             pattern: "intro",
+             desc: "Show intro of user",
+             category: "fun",
+             filename: __filename,
+             use: '<group link.>',
+         },
+         async(message) => {
+    try{
+          let media ;try{ media = await smdBuffer(image) }catch{media = log0}
+           const q =await message.bot.fakeMessage("contact",{},name) 
+           let contextInfo = {...(await message.bot.contextInfo(name,body,media,1,surl, 2) )}
+           await message.send(text, {contextInfo : contextInfo },"mirza",  q )
+    }catch(e){ await message.error(`${e}\n\ncommand: intro`,e,false)}
+
+
+ })
