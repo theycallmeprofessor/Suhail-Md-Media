@@ -47,18 +47,18 @@ const { smd, Config,smdBuffer,  prefix } = require('../lib')
 
 var surl = 'https://github.com/SuhailTechInfo/Suhail-Md' // Source URL
 const number = '923184474176'
-var name = ' Suhail Tech'
+var name = ' Mirza'
 var body = '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯'
 var image = 'https://telegra.ph/file/1e60489705c851f74b55e.jpg'
 let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
 │       「 𝗠𝗬 𝗜𝗡𝗧𝗥𝗢 」
-│ Name      : sυнαɪʟ ᴛᴇᴄʜ ɪиғօ
+│ Name      : MIRZA
 │ Place       : ʟαнᴏʀᴇ ᴘᴋ
 │ Gender    :  ᴍᴀʟᴇ
 │ Age          : 22_
 │ Phone     : wa.me/923184474176
 │ Youtube   : Youtube.com/c/SuhailTechInfo
-│ Status     : ɢᴀᴍᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ
+│ Status     : Hacker
 ╰═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄`
 
 
